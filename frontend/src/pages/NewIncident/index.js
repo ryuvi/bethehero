@@ -63,15 +63,9 @@ export default function NewIncident() {
                         value={value}
                         onChange={e => setValue(e.target.value)}
                     />
-
-                    <div className="input-group">
-                        <input type="text" placeholder="Cidade" />
-                        <input type="text" placeholder="UF" style={{ width: 80 }} />
-                    </div>
-
                     <button className="button" type="submit">Cadastrar</button>
                 </form>
             </div>
         </div>
-    )
+    );
 }
