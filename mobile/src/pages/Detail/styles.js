@@ -43,7 +43,7 @@ export default StyleSheet.create({
     },
 
     heroTitle: {
-        fontWeight: bold,
+        fontWeight: 'bold',
         fontSize: 20,
         color: '#13131A',
         lineHeight: 30,
